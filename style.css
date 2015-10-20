@@ -1,0 +1,530 @@
+@import url('css/reset.css');
+@import url(http://fonts.googleapis.com/css?family=Tinos);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+
+html, 
+body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Tinos', serif;
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+
+/* --- Banner -------------------------- */
+
+#banner{
+	width: 100%;
+	min-height: 700px;
+	background: url(img/banner2.jpg);
+	background-attachment: fixed;
+	position: relative;
+}
+
+	#banner #overlay{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: url(img/overlay.png) no-repeat scroll;
+	}
+	
+	#navbar {
+	
+	display: block;
+	width: 100%;
+	min-height: 40px;
+	background: #252525;
+	position: absolute;
+	}
+
+	.nav-logo {
+		float: left;
+		text-align: left;
+		font-size: 20px;
+		padding-left: 14px;
+		padding-top: 6.4px;
+		padding-right: 7px;
+		padding-bottom: 6.4px;
+		letter-spacing: 7px;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #000, 1px 2px 3px #000;
+		margin-left: 40px;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-right: 40px;
+	}
+	
+	.nav-logo a {
+		color: #e1e1e1;
+	}
+	
+	.nav-inner {
+		float: right;
+		text-align: right;
+		font-size: 25px;
+		margin-top: 40px;
+		margin-right: 40px;
+		margin-bottom: 40px;
+		margin-left: 40px;
+	}
+	.nav-inner a{
+		margin-right: 20px;
+		color: #e1e1e1;
+		letter-spacing: 2px;
+	}
+	
+	
+	
+
+
+	#logo{
+		width: 100%;
+		position: absolute;
+		bottom: 40%;
+		z-index: 5;
+		text-align: center;
+	}
+	
+	#logo h1{
+		margin: 0 auto;
+		text-align: center;
+		font-family: 'Tinos', serif;
+		font-size: 50px;
+		color: #e1e1e1;
+		text-shadow: 1px 1px 1px #000, 1px 2px 3px #000;
+	}
+
+	#logo #jobdesc{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 10px auto;
+		color: #e1e1e1;
+		font-size: 25px;
+		text-shadow: 1px 1px 1px #000, 1px 2px 3px #000;
+	}
+	
+/* ------------------------ section ----------------------- */
+
+section{
+	width: 100%;
+}
+
+	#sec-intro {
+		width: 100%;
+		height: 200px;
+		background: #fff;
+	
+	}
+	
+	#sec-intro h1{
+		width: 700px;
+		font-size: 25px;
+		text-align: center;
+		color: #a71c20;
+		margin: 100px auto;
+	}
+	
+	#sec-article{
+		display: block;
+		width: 100%;
+		height: auto;
+		background: #a71c20;
+	}
+	
+	.sec-title{
+		width: 100%;
+	}
+	
+	.sec-title h1{
+		padding-top: 40px;
+		font-size: 35px;
+		color: #fff;
+		text-align: center;
+		
+		
+	}
+
+		#sec-article .content{
+			display: table-row;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+		#sec-article .box{
+			display: table-cell;
+			padding: 40px 40px 40px 40px;
+			width:31.3333%;
+			text-align: center;
+		}
+			#sec-article .box:nth-child(1){
+				
+			}
+			#sec-article .box:nth-child(3){
+				border-radius: 0 0 10px 0;
+			}
+			#sec-article .box h3{
+				padding: 10px;
+				font-size: 22px;
+				color: #fff;
+			}
+			#sec-article .box p{
+				padding: 10px;
+				font-size: 20px;
+				color: #fff;
+				line-height: 1.5em;
+				letter-spacing: 2px;
+			}
+			#sec-article .box img{
+				width:200px;
+				max-width: 100%;
+				height: auto;
+				border-radius: 10px;
+				margin-bottom: 25px;
+			}
+			
+		#last-sec{
+			width: 100%;
+			height: 85px;
+			background: #db3138;
+		}
+
+
+.closing{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	background: #ececec;
+}
+
+	.clossing-inner {
+		max-width: 840px;
+		padding: 30px 60px 30px 55px;
+		margin: 0 auto;
+	}
+	.closing h2{
+		padding-top: 40px;
+		font-size: 35px;
+		color: #555555;
+		font-weight: bold;
+		margin-bottom: 45px;
+	}
+	.closing h3{
+		float: center;
+		text-align: center;
+		width: 80%;
+		margin: auto;
+		display: block;
+		line-height: 2em;
+		letter-spacing: 1px;
+		font-size: 20px;
+		color: #555555;
+	}
+	
+	
+    a.btn {
+        background-color: #a71c20;
+        color: #fff !important;
+		vertical-align: middle;
+		line-height: 2;
+		font-size: 20px;
+        cursor: pointer;
+		height: 45px;
+        display: inline-block;
+        font-weight: bold;
+        padding: 5px 8px;
+        text-align: center;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+		margin-top: 25px;
+		margin-bottom: 40px;
+    }
+    a.btn:hover {
+        text-decoration: none;
+        background-color: #a71c20;
+		opacity: 0.9;
+    }
+
+
+		/*.closing h3:before{
+			content: " \201C ";
+		}
+		.closing h3:after{
+			content: " \201D ";
+		} */
+
+	.contact {
+		position: relative;
+		width: 100%;
+		text-align: center;
+		background: #ececec;
+		
+	}
+	
+	.contact h1{
+		padding-top: 40px;
+		font-size: 35px;
+		color: #252525;
+		text-align: center;
+	}
+	
+	.contact .box-cont {
+		display: table-cell;
+		padding: 95px 95px 95px 95px;
+		width:31.3333%;
+		text-align: center;
+	}
+	.contact .box-cont h3{
+				padding: 10px;
+				font-size: 22px;
+				color: #252525;
+			}
+			.contact .box-cont p{
+				padding: 10px;
+				font-size: 20px;
+				color: #252525;
+				line-height: 1.5em;
+				letter-spacing: 2px;
+			}
+			.contact .box-cont img{
+				width:75px;
+				max-width: 100%;
+				height: auto;
+				border-radius: 10px;
+				margin-bottom: 25px;
+			}
+	
+/* ---------------- Footer ---------------- */
+		
+footer{
+	width: 100%;
+	height: 350px;
+	background: #252525;
+	border-top: 3px solid #ddd;
+	display: block;
+	margin: auto;
+	font-size: 12px;
+}
+
+	footer .findme{
+		width: 900px;
+		display: block;
+		margin: 30px auto;
+		vertical-align: center;
+		padding: 30px 30px 30px 30px;
+		text-align: center;
+	}
+	
+	footer .findme p {
+		font-size: 25px;
+		color: #ececec;
+	}
+	.socmed {
+		padding-top: 25px;
+		text-align: center;
+		width: 900px;
+		height: auto;
+		list-style-type: none;
+	}
+	.socmed li{
+		display: inline-block;
+	}
+	
+	.socmed a {
+		margin: 0 15px;
+	}
+	.socmed a.twitter {
+	
+		background : url(img/twitter.svg) repeat scroll;
+		width: 60px;
+		height: 60px;
+		display: block;
+	}
+	
+	.socmed a.mail {
+		background: url(img/mail.svg) repeat scroll ;
+		width: 60px;
+		height: 60px;
+		display: block;
+	}
+	
+	.socmed a.fb {
+		background: url(img/fb.svg) repeat scroll ;
+		width: 60px;
+		height: 60px;
+		display: block;
+	}
+	
+	.end-footer {
+		width: 100%;
+		height: 12%;
+		padding: 40px 30px 30px 0;
+		background: #282828;
+		text-align: center;
+	}
+	
+	.copyright {
+		font-size: 15px;
+		color: #ececec;
+	}
+	
+	.copyright a {
+		color:  #ececec;
+		cursor: pointer;
+	}
+	.copyright a:hover {
+		text-decoration: none;
+		color: #ececec;
+		opacity: 0.5;
+	}
+
+@media (max-width: 860px){
+
+	section,
+	.sec-article,
+	.closing,
+	footer{
+		width: 90%;
+	}
+	.gallery{
+		padding: 0;
+	}
+	.section .box:nth-child(1){
+		border-radius: 0;
+	}
+
+	footer{
+		text-align: center;
+	}
+	footer .box{
+		display: block;
+		width: 90%;
+	}
+	
+}
+
+/* --------------------- responsive web ---------------- */
+
+@media (max-width: 640px){
+	#banner{
+		width: auto;
+		height: 101%;
+		min-height: 350px;
+	}
+	#navbar{
+		height: 25%;
+	}
+	.nav-logo{
+		float: none;
+		font-size: 10px;
+		border: 1px solid #cbcaca;
+		text-align: center;
+		margin-bottom: 20px;
+		
+	}
+	.nav-inner {
+		float: none;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.nav-inner a{
+		margin-right: 10px;
+	}
+	
+	#logo {
+		bottom: 25%;
+	}
+	
+	#logo h1{
+		font-size: 50px;
+		
+	}
+	
+	.gallery .box{
+		/*display: block;*/
+	}
+	
+	section{
+		width: auto;
+	}
+	
+	#sec-intro{
+		width: auto;
+	}
+	
+	#sec-intro h1 {
+		width: auto;
+	}
+
+	#sec-article .box{
+		margin:auto;
+		display: block;
+		width: auto;
+		padding: 5%;
+		border-radius: 0;
+	}
+	
+	#sec-article .box img{
+		width: 75%;
+	}
+	
+	.contact .box-cont{
+		margin:auto;
+		display: block;
+		width: auto;
+		padding: 5%;
+		border-radius: 0;
+	}
+	
+	.contact .box-cont img{
+		width: 35%;
+	}
+	
+	.closing {
+		width: auto;
+	}
+	
+	.closing h3{
+		width: auto;
+	}
+	
+	footer {
+		width: auto;
+	}
+	
+	footer .findme {
+		width: auto;
+	}
+	
+	.socmed {
+		width: auto;
+	}
+	
+	.socmed a{
+		margin: auto;
+	}
+	.end-footer {
+		width: auto;
+	}
+	footer .box:nth-child(2){
+		text-align: center;
+		width: 90%;
+	}
+	footer .box strong{
+		display: block;
+	}
+	
+	
+}
+
+
+
+
